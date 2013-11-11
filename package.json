@@ -1,0 +1,20 @@
+{
+  "name": "minimatch-list",
+  "version": "0.0.1",
+  "description": "Match a single string against a list of minimatch patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "keywords": [
+    "minimatch"
+  ],
+  "dependencies": {
+    "minimatch": "~0.2.12"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "author": "Jamison Dance <http://jamisondance.com> (jergason@gmail.com)",
+  "license": "BSD-2-Clause"
+}
