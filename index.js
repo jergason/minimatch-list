@@ -5,8 +5,7 @@ var minimatch = require('minimatch')
  *
  * @param path String - a string to match
  * @param patternList Array - list of patterns to match against
- * @param options Object - hash of options that will be patched to
- *   minimatch()
+ * @param options Object - hash of options that will be passed to minimatch()
  */
 function matchPatternList(path, patternList, options) {
   return patternList.some(function(pattern) {
